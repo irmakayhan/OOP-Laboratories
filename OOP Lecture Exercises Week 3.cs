@@ -1,4 +1,6 @@
-﻿// EXERCISE 1
+// OOP LECTURE EXERCISES WEEK 3 
+
+// EXERCISE 1
 
 /* Write a program that takes a user's input for a grade (A, B, C, D, F) and prints out the corresponding GPA
 using the following logic:
@@ -8,7 +10,7 @@ C = 2
 D = 1
 F = 0  */
 
-/* Console.Write("Enter a grade (A,B,C,D,F): ");
+Console.Write("Enter a grade (A,B,C,D,F): ");
 string grade = Console.ReadLine().ToUpper();
 int gpa;
 
@@ -39,7 +41,7 @@ switch (grade)
         return;
 }
 
-Console.WriteLine($"Your gpa is {gpa}"); */
+Console.WriteLine($"Your gpa is {gpa}"); 
 
 // EXERCISE 2
 
@@ -48,7 +50,7 @@ Console.WriteLine($"Your gpa is {gpa}"); */
  If they are between 18 and 65, print "You are an adult."
  If they are over 65, print "You are a senior citizen." */
 
-/* Console.Write("Please enter your age: ");
+Console.Write("Please enter your age: ");
 int age = int.Parse(Console.ReadLine());
 
 if (age > 0 && age < 18)
@@ -66,7 +68,7 @@ else if (age > 65)
 else
 {
     Console.WriteLine("You entered invalid age.");
-} */
+}
 
 // EXERCISE 3
 
@@ -75,7 +77,7 @@ else
  If the number is divisible by 2 or 3.
  If the number is divisible by both 2 and 3. */
 
-/* Console.Write("Enter a number: ");
+Console.Write("Enter a number: ");
 int number = int.Parse(Console.ReadLine());
 
 if(number > 0)
@@ -103,7 +105,7 @@ if (number % 2 == 0 && number % 3 == 0)
 else
 {
     Console.WriteLine("The number is not divisible by both 2 and 3.");
-} */
+} 
 
 // EXERCISE 4
 
@@ -113,7 +115,7 @@ else
  "Large number" for numbers above 20.
  Use the default case to handle any numbers below 1. */
 
-/* Console.Write("Enter a number: ");
+Console.Write("Enter a number: ");
 int number = int.Parse(Console.ReadLine());
 
 switch (number)
@@ -133,7 +135,7 @@ switch (number)
     default:
         Console.WriteLine("The number you entered is invalid!");
         return;
-} */
+} 
 
 // EXERCISE 5
 
