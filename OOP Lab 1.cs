@@ -1,22 +1,24 @@
-﻿// ***** first example of objected oriented programming laboratory 1 *****
+// Lab 1 Exercises
 
-/* Console.Write("Enter the radius of the circle: ");
+// LAB 1 EXERCISE 1
+
+Console.Write("Enter the radius of the circle: ");
 float radius = float.Parse(Console.ReadLine());
 
 float area = 3.14 * radius * radius;
-Console.WriteLine($"The area of the circle is: {area}"); */
+Console.WriteLine($"The area of the circle is: {area}"); 
 
-// ***** second example of objected oriented programming laboratory 1 *****
+// LAB 1 EXERCISE 2
 
-/* Console.Write("Enter a temperature in Celsius: ");
+Console.Write("Enter a temperature in Celsius: ");
 float Celsius = float.Parse(Console.ReadLine());
 
 float Fahrenheit = (Celsius * 9 / 5) + 32;
-Console.WriteLine($"The temperature in Fahrenheit is {Fahrenheit}"); */
+Console.WriteLine($"The temperature in Fahrenheit is {Fahrenheit}"); 
 
-// ***** third example of objected oriented programming laboratory 1 *****
+// LAB 1 EXERCISE 3
 
-/* Console.Write("Enter a number to check if it is even or odd: ");
+Console.Write("Enter a number to check if it is even or odd: ");
 int number = int.Parse(Console.ReadLine()); 
 
 if (number % 2 == 0)
@@ -26,11 +28,11 @@ if (number % 2 == 0)
 else
 {
     Console.WriteLine($"{number} is odd.");
-} */
+} 
 
-// ***** fourth example of objected oriented programming laboratory 1 *****
+// LAB 1 EXERCISE 4
 
-/* Console.Write("Enter first number: ");
+Console.Write("Enter first number: ");
 int num1 = int.Parse(Console.ReadLine());
 
 Console.Write("Enter second number: ");
@@ -44,9 +46,9 @@ double quotient = (double)num1 / num2;
 Console.WriteLine($"Sum is {sum}.");
 Console.WriteLine($"Difference is {difference}.");
 Console.WriteLine($"Product is {product}.");
-Console.WriteLine($"Quotient is {quotient}."); */
+Console.WriteLine($"Quotient is {quotient}.");
 
-// ***** fifth example of objected oriented programming laboratory 1 *****
+// LAB 1 EXERCISE 5
 
 Console.Write("Enter first number: ");
 int num1 = int.Parse(Console.ReadLine());
