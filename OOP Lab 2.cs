@@ -1,4 +1,8 @@
-﻿/* Console.WriteLine("Enter your grade (A,B,C,D,F): ");
+// Lab 2 Exercises
+
+// LAB 2 EXERCISE 1
+
+Console.WriteLine("Enter your grade (A,B,C,D,F): ");
 string grade = Console.ReadLine();
 int gpa;
 
@@ -30,11 +34,11 @@ switch (grade)
 }
 
 Console.WriteLine("Your GPA is {0}", gpa);
-Console.WriteLine($"Your GPA is {gpa}"); */
+Console.WriteLine($"Your GPA is {gpa}");
 
-// Lab 2 Exercises
+// LAB 2 EXERCISE 2
 
-/* int number = int.Parse(Console.ReadLine());
+int number = int.Parse(Console.ReadLine());
 
 if (number % 2 == 0)
 {
@@ -43,11 +47,11 @@ if (number % 2 == 0)
 else
 {
     Console.WriteLine($"{number} is odd.");
-} */
+}
 
-// LAB 2 EXERCISE 2
+// LAB 2 EXERCISE 3
 
-/* Console.Write("Enter a number: ");
+Console.Write("Enter a number: ");
 int number = int.Parse(Console.ReadLine());
 
 if (number > 0)
@@ -61,11 +65,11 @@ else if (number < 0)
 else
 {
     Console.WriteLine($"{number} is zero");
-} */
+} 
 
-// LAB 2 EXERCISE 3
+// LAB 2 EXERCISE 4
 
-/* Console.Write("Enter a day number: ");
+Console.Write("Enter a day number: ");
 int day = int.Parse(Console.ReadLine());
 
 switch (day)
@@ -95,7 +99,9 @@ switch (day)
         Console.WriteLine("Invalid Day Of The Number");
         return;
 
-} */
+}
+
+// LAB 2 EXERCISE 5
 
 Console.Write("Enter first number: ");
 int num1 = int.Parse(Console.ReadLine());
